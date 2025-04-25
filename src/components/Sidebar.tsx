@@ -165,61 +165,48 @@ export default function Sidebar() {
       `}</style>
 
       <div className="mb-8">
-        <h1 className="text-2xl font-bold">Swarnadeep</h1>
+        <h1 className="text-2xl font-bold mb-2">Swarnadeep Maity</h1>
         <p className="text-sm opacity-80">Full Stack Developer</p>
       </div>
 
       <nav className="flex-1">
-        <ul className="space-y-4">
+        <ul className="space-y-2">
           {navItems.map((item) => (
-            <motion.li
-              key={item.path}
-              whileHover={{ 
-                scale: 1.05,
-                boxShadow: "0 0 15px rgba(255, 0, 0, 0.5)",
-                textShadow: "0 0 8px rgba(255, 0, 0, 0.8)"
-              }}
-              transition={{ 
-                type: "spring",
-                stiffness: 300,
-                damping: 20
-              }}
-            >
+            <li key={item.path}>
               <Link
                 href={item.path}
-                className={`block w-full py-2 px-4 rounded-lg ${
+                className={`block py-2 px-4 rounded-lg transition-all duration-300 ${
                   pathname === item.path
-                    ? 'bg-white/20 font-semibold'
-                    : 'hover:bg-white/10'
-                } transition-all duration-300`}
+                    ? 'bg-white/10 text-white glow-red'
+                    : 'text-white/70 hover:bg-white/5 hover:text-white'
+                }`}
               >
                 {item.name}
               </Link>
-            </motion.li>
+            </li>
           ))}
         </ul>
       </nav>
 
-      {/* Social Links */}
-      <div className="mt-auto pt-6 flex justify-center gap-4">
-        <motion.a
-          href="https://www.linkedin.com/in/swarnadeep-maity-a98a2827a/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-white hover:text-[#0077B5] transition-colors duration-300"
-          whileHover={{ scale: 1.1 }}
-        >
-          <FaLinkedin className="w-6 h-6" />
-        </motion.a>
-        <motion.a
-          href="https://www.instagram.com/swarnadeep__maity?igsh=cDJxbWVpZ2FlMWJ4"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-white hover:text-[#E4405F] transition-colors duration-300"
-          whileHover={{ scale: 1.1 }}
-        >
-          <FaInstagram className="w-6 h-6" />
-        </motion.a>
+      <div className="mt-auto">
+        <div className="flex space-x-4 justify-center mb-4">
+          <a
+            href="https://linkedin.com/in/your-profile"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white/70 hover:text-white transition-colors glow-red-social"
+          >
+            <FaLinkedin size={24} />
+          </a>
+          <a
+            href="https://instagram.com/your-profile"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white/70 hover:text-white transition-colors glow-red-social"
+          >
+            <FaInstagram size={24} />
+          </a>
+        </div>
       </div>
     </div>
   );

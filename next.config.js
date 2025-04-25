@@ -1,12 +1,24 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
   images: {
-    unoptimized: true,
-    domains: ['raw.githubusercontent.com', 'github.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'img.clerk.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'raw.githubusercontent.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'github.com',
+      },
+    ],
   },
-  basePath: '/portfolio_2025',
-  assetPrefix: '/portfolio_2025/',
+  // Comment out these for development
+  // basePath: process.env.NODE_ENV === 'production' ? '/portfolio_2025' : '',
+  // assetPrefix: process.env.NODE_ENV === 'production' ? '/portfolio_2025/' : '',
   trailingSlash: true,
 }
 
