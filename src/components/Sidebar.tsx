@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { FaLinkedin, FaInstagram } from 'react-icons/fa';
+import Image from 'next/image';
 
 const navItems = [
   { name: 'Home', path: '/' },
@@ -168,6 +169,14 @@ export default function Sidebar() {
         <h1 className="text-2xl font-bold mb-2">Swarnadeep Maity</h1>
         <p className="text-sm opacity-80">Full Stack Developer</p>
       </div>
+
+      <Image
+        src="/portfolio_2025/images/profile.jpg"
+        alt="Profile"
+        width={100}
+        height={100}
+        className="rounded-full mb-4"
+      />
 
       <nav className="flex-1">
         <ul className="space-y-2">
