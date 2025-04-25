@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "functions": {
+    "nextjs": {
+      "entrypoint": "src/app",
+      "runtime": "nodejs18"
+    }
+  },
+  "static": {
+    "public": "public"
+  }
+} 
