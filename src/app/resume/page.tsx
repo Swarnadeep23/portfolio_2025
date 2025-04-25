@@ -11,9 +11,9 @@ export default function Resume() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/mountain-bg.jpg"
-          alt="Mountain Background"
+          alt="Background"
           fill
-          className="object-cover"
+          className="object-cover opacity-20"
           priority
         />
         <div className="absolute inset-0 bg-black/20" />
@@ -33,10 +33,11 @@ export default function Resume() {
                 <div className="text-center mb-6">
                   <div className="relative w-32 h-32 mx-auto mb-4">
                     <Image
-                      src="/profile.jpg"
-                      alt="Swarnadeep Maity"
-                      fill
-                      className="rounded-full object-cover"
+                      src="/images/profile.jpg"
+                      alt="Profile"
+                      width={200}
+                      height={200}
+                      className="rounded-full border-4 border-white shadow-lg"
                     />
                   </div>
                   <h1 className="text-2xl font-bold">SWARNADEEP</h1>

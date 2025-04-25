@@ -1,0 +1,5 @@
+[33mebd49c8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Fix image paths for GitHub Pages deployment
+[33mcfda674[m Fix build issues and prepare for deployment
+[33m094da5f[m Configure for GitHub Pages deployment
+[33m3fee0bd[m Initial commit: Portfolio website setup with Next.js
+[33mf50aa3f[m Merge branch 'main' of https://github.com/Swarnadeep23/portfolio_2025

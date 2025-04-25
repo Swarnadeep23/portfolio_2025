@@ -45,9 +45,9 @@ export default function Projects() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/mountain-bg.jpg"
-          alt="Mountain Background"
+          alt="Background"
           fill
-          className="object-cover"
+          className="object-cover opacity-20"
           priority
         />
         <div className="absolute inset-0 bg-black/20" />

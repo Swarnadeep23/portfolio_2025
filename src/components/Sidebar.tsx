@@ -171,11 +171,11 @@ export default function Sidebar() {
       </div>
 
       <Image
-        src="/portfolio_2025/images/profile.jpg"
+        src="/images/profile.jpg"
         alt="Profile"
-        width={100}
-        height={100}
-        className="rounded-full mb-4"
+        width={150}
+        height={150}
+        className="rounded-full border-4 border-white shadow-lg"
       />
 
       <nav className="flex-1">

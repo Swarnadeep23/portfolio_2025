@@ -24,13 +24,13 @@ export default function Home() {
       {/* Hero Section */}
       <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <Image
+        <Image
             src="/images/mountain-bg.jpg"
             alt="Mountain Background"
             fill
             className="object-cover"
-            priority
-          />
+          priority
+        />
           <div className="absolute inset-0 bg-black/20" />
         </div>
 
@@ -102,8 +102,8 @@ export default function Home() {
                 >
                   <motion.a
                     href="https://www.linkedin.com/in/swarnadeep-maity-a98a2827a/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+            target="_blank"
+            rel="noopener noreferrer"
                     whileHover={{ scale: 1.1 }}
                     className="text-white hover:text-[#0077B5] transition-colors duration-300"
                   >
@@ -111,8 +111,8 @@ export default function Home() {
                   </motion.a>
                   <motion.a
                     href="https://www.instagram.com/swarnadeep__maity?igsh=cDJxbWVpZ2FlMWJ4"
-                    target="_blank"
-                    rel="noopener noreferrer"
+            target="_blank"
+            rel="noopener noreferrer"
                     whileHover={{ scale: 1.1 }}
                     className="text-white hover:text-[#E4405F] transition-colors duration-300"
                   >

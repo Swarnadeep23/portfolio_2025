@@ -45,12 +45,11 @@ export default function Hero() {
           >
             <div className="w-full h-96 relative">
               <Image
-                src="/portfolio_2025/images/profile.jpg"
-                alt="Hero"
-                width={500}
-                height={500}
-                className="rounded-full"
-                priority
+                src="/images/profile.jpg"
+                alt="Profile"
+                width={200}
+                height={200}
+                className="rounded-full border-4 border-white shadow-lg"
               />
             </div>
           </motion.div>

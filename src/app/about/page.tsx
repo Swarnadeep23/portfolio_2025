@@ -34,9 +34,9 @@ export default function About() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/mountain-bg.jpg"
-          alt="Mountain Background"
+          alt="Background"
           fill
-          className="object-cover"
+          className="object-cover opacity-20"
           priority
         />
         <div className="absolute inset-0 bg-black/20" />
@@ -65,10 +65,11 @@ export default function About() {
               </div>
               <div className="relative h-[300px] rounded-lg overflow-hidden shadow-xl">
                 <Image
-                  src="/profile.jpg"
-                  alt="Swarnadeep Maity"
-                  fill
-                  className="object-cover"
+                  src="/images/profile.jpg"
+                  alt="Profile"
+                  width={200}
+                  height={200}
+                  className="rounded-full border-4 border-white shadow-lg"
                 />
               </div>
             </div>
