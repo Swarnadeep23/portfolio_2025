@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -16,9 +18,8 @@ const nextConfig = {
       },
     ],
   },
-  // Comment out these for development
-  // basePath: process.env.NODE_ENV === 'production' ? '/portfolio_2025' : '',
-  // assetPrefix: process.env.NODE_ENV === 'production' ? '/portfolio_2025/' : '',
+  basePath: '/portfolio_2025',
+  assetPrefix: '/portfolio_2025/',
   trailingSlash: true,
 }
 
