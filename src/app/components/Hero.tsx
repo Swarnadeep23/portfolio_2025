@@ -45,7 +45,7 @@ export default function Hero() {
           >
             <div className="w-full h-96 relative">
               <Image
-                src="/images/profile.jpg"
+                src="/portfolio_2025/images/profile.jpg"
                 alt="Profile"
                 width={200}
                 height={200}

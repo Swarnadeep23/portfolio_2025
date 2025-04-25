@@ -8,18 +8,18 @@ const projects = [
   {
     title: 'Foody-India - Food Ordering System',
     description: 'A comprehensive food ordering platform that enables users to browse menus, place orders, and make secure payments. Features include user authentication, real-time order tracking, and an admin dashboard.',
-    mainImage: '/images/feedback-form.jpg',
+    mainImage: '/portfolio_2025/images/feedback-form.jpg',
     screenshots: [
       {
-        src: '/images/payment.jpg',
+        src: '/portfolio_2025/images/payment.jpg',
         alt: 'Payment and Order Summary Interface'
       },
       {
-        src: '/images/about.jpg',
+        src: '/portfolio_2025/images/about.jpg',
         alt: 'About Page with Restaurant Information'
       },
       {
-        src: '/images/feedback-form.jpg',
+        src: '/portfolio_2025/images/feedback-form.jpg',
         alt: 'Customer Feedback Form'
       }
     ],
@@ -44,7 +44,7 @@ export default function Projects() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/mountain-bg.jpg"
+          src="/portfolio_2025/images/mountain-bg.jpg"
           alt="Background"
           fill
           className="object-cover opacity-20"

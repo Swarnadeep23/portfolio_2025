@@ -171,7 +171,7 @@ export default function Sidebar() {
       </div>
 
       <Image
-        src="/images/profile.jpg"
+        src="/portfolio_2025/images/profile.jpg"
         alt="Profile"
         width={150}
         height={150}

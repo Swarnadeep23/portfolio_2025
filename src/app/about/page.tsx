@@ -33,7 +33,7 @@ export default function About() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/mountain-bg.jpg"
+          src="/portfolio_2025/images/mountain-bg.jpg"
           alt="Background"
           fill
           className="object-cover opacity-20"
@@ -65,7 +65,7 @@ export default function About() {
               </div>
               <div className="relative h-[300px] rounded-lg overflow-hidden shadow-xl">
                 <Image
-                  src="/images/profile.jpg"
+                  src="/portfolio_2025/images/profile.jpg"
                   alt="Profile"
                   width={200}
                   height={200}

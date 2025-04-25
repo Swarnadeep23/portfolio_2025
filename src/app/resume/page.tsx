@@ -10,7 +10,7 @@ export default function Resume() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/mountain-bg.jpg"
+          src="/portfolio_2025/images/mountain-bg.jpg"
           alt="Background"
           fill
           className="object-cover opacity-20"
@@ -33,7 +33,7 @@ export default function Resume() {
                 <div className="text-center mb-6">
                   <div className="relative w-32 h-32 mx-auto mb-4">
                     <Image
-                      src="/images/profile.jpg"
+                      src="/portfolio_2025/images/profile.jpg"
                       alt="Profile"
                       width={200}
                       height={200}
