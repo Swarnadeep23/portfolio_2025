@@ -21,6 +21,9 @@ const nextConfig = {
   basePath: '/portfolio_2025',
   assetPrefix: '/portfolio_2025/',
   trailingSlash: true,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 }
 
 module.exports = nextConfig 

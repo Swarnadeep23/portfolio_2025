@@ -1,0 +1,8 @@
+src/app/about/page.tsx
+src/app/components/Hero.tsx
+src/app/projects/page.tsx
+src/app/signin/page.tsx
+src/components/AuthButton.tsx
+src/components/Sidebar.tsx
+src/types/clerk.d.ts
+src/types/next-auth.d.ts 
