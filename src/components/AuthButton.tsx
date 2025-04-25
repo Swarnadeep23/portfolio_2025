@@ -1,29 +1,19 @@
 'use client';
 
 import { useState } from 'react';
-import { useAuth } from '@clerk/nextjs';
-import AuthModal from './AuthModal';
 import { motion } from 'framer-motion';
 
 export default function AuthButton() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const { isSignedIn, user } = useAuth();
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <>
-      <motion.button
-        whileHover={{ scale: 1.05 }}
-        transition={{ type: "spring", stiffness: 400, damping: 10 }}
-        onClick={() => setIsModalOpen(true)}
-        className="bg-[#4B79A1] hover:bg-[#3A5F80] text-white px-6 py-2 rounded-full text-sm font-semibold transition-colors duration-300"
-      >
-        {isSignedIn ? `Hi, ${user?.firstName}` : 'Sign In'}
-      </motion.button>
-
-      <AuthModal
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-      />
-    </>
+    <motion.button
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+      onClick={() => setIsOpen(true)}
+      className="px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+    >
+      Sign In
+    </motion.button>
   );
 } 
