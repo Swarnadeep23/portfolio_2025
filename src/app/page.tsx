@@ -140,7 +140,7 @@ export default function Home() {
             >
               <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-3xl overflow-hidden">
                 <Image
-                  src="./images/profile.jpg"
+                  src="../images/profile.jpg"
                   alt="Swarnadeep Maity"
                   fill
                   className="object-cover"
