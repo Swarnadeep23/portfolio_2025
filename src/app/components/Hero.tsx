@@ -48,7 +48,7 @@ export default function Hero() {
                 src="/portfolio_2025/images/profile.jpg"
                 alt="Profile"
                 width={200}
-                height={200}
+                height={190}
                 className="rounded-full border-4 border-white shadow-lg"
               />
             </div>
