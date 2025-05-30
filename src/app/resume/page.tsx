@@ -35,7 +35,7 @@ export default function Resume() {
                     <Image
                       src="/portfolio_2025/images/profile.jpg"
                       alt="Profile"
-                      width={200}
+                      width={150}
                       height={150}
                       className="rounded-full border-4 border-white shadow-lg"
                     />
