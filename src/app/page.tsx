@@ -25,7 +25,7 @@ export default function Home() {
       <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
         <Image
-            src="/images/mountain-bg.jpg"
+            src="images/mountain-bg.jpg"
             alt="Mountain Background"
             fill
             className="object-cover"
